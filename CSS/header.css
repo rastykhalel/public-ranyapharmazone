@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "NRT" ;
+    src: url(../Fonts/NRT.ttf);
+  }
 
 *{
     font-family: "NRT";
