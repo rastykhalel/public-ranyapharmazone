@@ -1,10 +1,17 @@
-const a = document.getElementById("image");
+let mybutton = document.getElementById("myBtn");
+const listt = document.getElementsByClassName("list")
+
+
+ listt.addEventListener('click', function onClick(){
+  
+    listt.style. = '#00b842';
+  
+ })
+  
+
+ 
 
 
 
-
- function changeScr() {
-a.src="../img/larel/- (2).jpg";
- }
 
 
