@@ -79,10 +79,6 @@ header ul li details {
 
 }
 
-.iconss {
-    display: none;
-
-}
 
 header ul li details a {
 
@@ -145,6 +141,9 @@ header ul li a {
         transition: all 1s;
 
     }
+    header{
+        height: 320px;
+    }
    
 
 
@@ -158,18 +157,15 @@ header ul li a {
         transition: all 1s;
     }
 
-    .iconss:hover {
-
+    .menu {
+        opacity: 1;
+        transition: all 0.3s;
+    }
+    .list a ion-icon {
+        transform: rotate(0);
+        transition: all 1s;
     }
 
-
-    .iconss ion-icon {
-        color: white;
-        width: 30px;
-        height: 30px;
-        vertical-align: middle;
-
-    }
 
 
 
