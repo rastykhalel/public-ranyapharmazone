@@ -1,0 +1,39 @@
+#Another {
+    background-color: rgba(238, 238, 238, 0.185);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+#Another  div{
+    flex: 1;
+    overflow: hidden;
+    padding: 10px;
+    min-width: 300px;
+    border-radius: 30px;
+    
+
+}
+#Another  div img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.281);
+}
+#Another :hover > :not(:hover){
+ 
+    
+    opacity: 1;
+    transition: 0.2s;
+}
+
+@media (max-width : 700px){
+    #Another :hover > :not(:hover){
+ 
+    opacity: 1;
+        
+        
+    }
+}

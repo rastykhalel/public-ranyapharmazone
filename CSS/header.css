@@ -38,8 +38,12 @@ header div {
     transition: all 0.3s;
     padding-left: 5px;
     padding-right: 5px;
+    
 
 
+}
+.menu a {
+    color: white;
 }
 
 .list {
@@ -124,7 +128,7 @@ header ul li:hover>a {
 }
 
 header ul li a {
-    color: aliceblue;
+    color: black;
     text-decoration: none;
 }
 
