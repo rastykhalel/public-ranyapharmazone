@@ -1,3 +1,17 @@
+header {
+    background-color: #42a5f5;
+    padding-top: 10px;
+}
+#logo{
+
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    width: 70px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
 @font-face {
     font-family: "NRT";
     src: url(../Fonts/NRT.ttf);
@@ -5,173 +19,4 @@
 
 * {
     font-family: "NRT";
-}
-
-
-
-header {
-    color: #86dcf3;
-    background-color: #86dcf3;
-    border-radius: 10px;
-
-
-}
-
-header div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.menu {
-    opacity: 0;
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    position: absolute;
-    margin-top: 27px;
-    background-color: #097897;
-    overflow: hidden;
-    padding-top: 10px;
-    border-radius: 0px 10px 0px 10px;
-    transition: all 0.3s;
-    padding-left: 5px;
-    padding-right: 5px;
-    
-
-
-}
-.menu a {
-    color: white;
-}
-
-.list {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-
-}
-
-.list a ion-icon {
-    transform: rotate(-90deg);
-}
-
-.list:hover .menu {
-    opacity: 1;
-    transition: all 0.3s;
-}
-
-.list:hover a ion-icon {
-    transform: rotate(0);
-    transition: all 1s;
-}
-
-header div img {
-
-    width: 100px;
-    height: 100px;
-
-    border-radius: 0px 0px 10px 10px;
-}
-
-header ul li details {
-
-    display: flex;
-    flex-direction: column;
-
-
-}
-
-
-header ul li details a {
-
-
-    background-color: black;
-    flex: 1;
-
-
-
-}
-
-header ul {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 40px;
-
-}
-
-header ul li {
-
-    width: 100px;
-    display: inline-flex;
-    list-style-type: none;
-    color: aliceblue;
-    border-width: 2px;
-    padding: 2px;
-    margin-bottom: 10px;
-
-
-}
-
-header ul li:hover {
-    border-radius: 5px 0px 5px 0px;
-    background-color: rgba(240, 248, 255, 0.397);
-
-
-}
-
-header ul li:hover>a {
-    color: black;
-}
-
-header ul li a {
-    color: black;
-    text-decoration: none;
-}
-
-@media (max-width : 700px) {
- 
-   
-
-    header ul  {
-        display: flex;
-        flex-direction:column ;
-        align-items: flex-start;
-        justify-content: left;
-        height: fit-content;
-        transition: all 1s;
-
-    }
-    header{
-        height: 320px;
-    }
-   
-
-
-    .iconss {
-        display: flex;
-        justify-content: left;
-        margin-top: 20px;
-        padding-left: 75px;
-        background-color: #1daabc;
-        margin-bottom: 30px;
-        transition: all 1s;
-    }
-
-    .menu {
-        opacity: 1;
-        transition: all 0.3s;
-    }
-    .list a ion-icon {
-        transform: rotate(0);
-        transition: all 1s;
-    }
-
-
-
-
-
 }
